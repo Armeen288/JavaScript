@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>Condional Statement</h1>
+        <button onclick="abc()">Click me</button>
+        <p id="a"></p>
+        <p id="b"></p>
+        <script>
+            var greet
+            var time= new Date().getHours()
+            document.write(time)
+            if(time<10){
+                greet="Good Morning"
+            }
+            else if(time<20){
+                greet="Good Afternoon"
+            }
+            else{
+                greet="Good Night"
+            }
+            document.getElementById("a").innerHTML = time+greet
+        </script>
+        </body>
+</html>
